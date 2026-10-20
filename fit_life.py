@@ -40,7 +40,7 @@ bmi = round(user_weight / (user_height ** 2), 1)
 WATER_PER_KG = 30
 ML_IN_LITER = 1000
 water_ml = user_weight * WATER_PER_KG
-water_l = water_ml / ML_IN_LITER 
+water_l = water_ml / ML_IN_LITER
 
 # 4. Вывод красивого результата
 print("-" * 40)
