@@ -29,7 +29,7 @@ while True:
     try:
         user_height = float(user_input_height)
         if user_height <= 0:
-            print("Ошибка! Возраст должен быть положительным")
+            print("Ошибка! Рост должен быть положительным")
         break
     except ValueError:
         print("Ошибка! Пожалуйста введите только цифры")
